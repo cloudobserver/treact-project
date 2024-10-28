@@ -2,11 +2,14 @@
   "name": "treact-project",
   "version": "1.0.0",
   "description": "Demo project for CSS best practices",
-  "main": "server.js",
+  "main": "./dist/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node server.js"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Andrew Bartson",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "https://cloudobserver.github.io/treact-project",
+  "dependencies": {
+    "gh-pages": "^6.2.0"
+  }
 }
